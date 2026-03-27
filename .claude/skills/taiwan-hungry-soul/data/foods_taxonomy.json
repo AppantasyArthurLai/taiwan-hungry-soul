@@ -1,0 +1,96 @@
+{
+  "categories": [
+    {
+      "id": "fried",
+      "name": "炸物",
+      "synonyms": ["炸的", "酥炸", "油炸", "香酥"],
+      "items": ["鹹酥雞", "雞排", "炸豆腐", "地瓜球", "炸魷魚", "甜不辣", "大餅包小餅", "炸湯圓"]
+    },
+    {
+      "id": "noodles",
+      "name": "麵類",
+      "synonyms": ["麵", "麵線", "米粉", "粄條"],
+      "items": ["蚵仔麵線", "大腸麵線", "擔仔麵", "米粉湯", "鱔魚意麵"]
+    },
+    {
+      "id": "rice",
+      "name": "飯類",
+      "synonyms": ["飯", "便當", "燴飯"],
+      "items": ["滷肉飯", "雞肉飯", "排骨飯", "筒仔米糕"]
+    },
+    {
+      "id": "soup",
+      "name": "湯品",
+      "synonyms": ["湯", "補湯", "熱湯", "粥"],
+      "items": ["藥燉排骨", "四神湯", "海鮮粥", "當歸鴨", "豬血湯"]
+    },
+    {
+      "id": "pancake_bun",
+      "name": "餅包類",
+      "synonyms": ["餅", "包子", "煎包", "蔥油餅", "蛋餅"],
+      "items": ["胡椒餅", "生煎包", "蔥油餅", "蛋餅", "潤餅", "水煎包", "棺材板"]
+    },
+    {
+      "id": "seafood",
+      "name": "海鮮",
+      "synonyms": ["海產", "蚵仔", "蝦", "魚", "花枝"],
+      "items": ["蚵仔煎", "蚵仔麵線", "烤魷魚", "海鮮粥", "蝦捲", "鮮蚵"]
+    },
+    {
+      "id": "stinky_tofu",
+      "name": "臭豆腐",
+      "synonyms": ["臭豆腐", "豆腐", "臭的"],
+      "items": ["炸臭豆腐", "清蒸臭豆腐", "麻辣臭豆腐"]
+    },
+    {
+      "id": "dessert",
+      "name": "甜點冰品",
+      "synonyms": ["甜的", "冰", "甜點", "點心", "剉冰"],
+      "items": ["豆花", "芋圓", "仙草", "愛玉", "麻糬", "車輪餅", "雞蛋糕", "芋頭酥"]
+    },
+    {
+      "id": "drinks",
+      "name": "飲料",
+      "synonyms": ["喝的", "飲料", "茶", "果汁"],
+      "items": ["珍珠奶茶", "木瓜牛奶", "青草茶", "冬瓜茶", "甘蔗汁", "楊桃汁"]
+    },
+    {
+      "id": "grilled",
+      "name": "烤類",
+      "synonyms": ["烤的", "燒烤", "串燒"],
+      "items": ["烤玉米", "烤香腸", "串烤", "烤魷魚"]
+    }
+  ],
+  "occasions": [
+    {
+      "id": "late_night",
+      "name": "宵夜",
+      "synonyms": ["宵夜", "半夜", "深夜", "晚上餓了", "消夜"],
+      "recommended_categories": ["fried", "noodles", "soup", "grilled"]
+    },
+    {
+      "id": "date",
+      "name": "約會",
+      "synonyms": ["約會", "帶女朋友", "帶男朋友", "浪漫", "兩個人"],
+      "recommended_categories": ["dessert", "drinks", "seafood", "pancake_bun"]
+    },
+    {
+      "id": "friends",
+      "name": "朋友聚會",
+      "synonyms": ["朋友", "一群人", "揪團", "大家一起"],
+      "recommended_categories": ["fried", "grilled", "drinks", "stinky_tofu"]
+    },
+    {
+      "id": "solo",
+      "name": "一個人吃",
+      "synonyms": ["一個人", "自己", "獨食", "邊走邊吃"],
+      "recommended_categories": ["noodles", "rice", "fried", "pancake_bun"]
+    },
+    {
+      "id": "family",
+      "name": "家庭聚餐",
+      "synonyms": ["家人", "帶小孩", "帶爸媽", "全家"],
+      "recommended_categories": ["rice", "soup", "seafood", "noodles"]
+    }
+  ]
+}

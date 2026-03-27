@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Skill packaged output
+dist/
+
+# Eval workspace (test results, grading, timing data)
+taiwan-hungry-soul-workspace/
+
+# Claude Code project memory
+.claude/projects/
+
+# Early design drafts (not part of final skill)
+skill-main-points.md
+skill-core-draft.md
+skill-folder-structure.md
+night-market_template.json
+taiwan_hungry_soul_skill_architecture.svg
+
+# Evals
+evals/
