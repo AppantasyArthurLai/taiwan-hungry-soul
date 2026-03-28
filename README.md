@@ -34,6 +34,17 @@
 
 ## 安裝 / 更新
 
+### Claude 桌機版 / claude.ai
+
+1. 到 [Releases](https://github.com/AppantasyArthurLai/taiwan-hungry-soul/releases) 下載最新的 `taiwan-hungry-soul.skill` 檔案
+2. 開啟 Claude → Customize → Skills
+3. 點右上角 `+` → Upload skill
+4. 把 `.skill` 檔拖進去，完成
+
+更新時重複上述步驟，上傳新版即可覆蓋。
+
+### Claude Code（CLI）
+
 在你的專案目錄下跑這行，安裝和更新都是同一個指令：
 
 ```bash
